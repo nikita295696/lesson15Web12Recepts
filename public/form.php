@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<form method="post">
+<form class="form-dark" method="post">
     <input type="hidden" name="id" />
     <input name="title" placeholder="Title"><br/>
     <textarea name="instruction"></textarea><br/>
-    <button type="submit">Create</button>
+    <input type="submit" value="Create">
 </form>
 
 </body>
