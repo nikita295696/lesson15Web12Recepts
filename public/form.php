@@ -9,12 +9,14 @@
 </head>
 <body>
 
-<form method="post">
-    <input type="hidden" name="id" />
-    <input name="title" placeholder="Title"><br/>
-    <textarea name="instruction"></textarea><br/>
-    <button type="submit">Create</button>
-</form>
+<div class="container">
+    <form method="post">
+        <input type="hidden" name="id" />
+        <input name="title" placeholder="Title"><br/>
+        <textarea name="instruction"></textarea><br/>
+        <button type="submit">Create</button>
+    </form>
+</div>
 
 </body>
 </html>
