@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form>
+<form method="post">
     <input type="hidden" name="id" />
     <input name="title" placeholder="Title"><br/>
     <textarea name="instruction"></textarea><br/>
