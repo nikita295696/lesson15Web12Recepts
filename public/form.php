@@ -9,12 +9,15 @@
 </head>
 <body>
 
-<form class="form-dark" method="post">
-    <input type="hidden" name="id" />
-    <input name="title" placeholder="Title"><br/>
-    <textarea name="instruction"></textarea><br/>
-    <input type="submit" value="Create">
-</form>
+
+<div class="container">
+    <form class="form-dark" method="post">
+        <input type="hidden" name="id" />
+        <input name="title" placeholder="Title"><br/>
+        <textarea name="instruction"></textarea><br/>
+        <button type="submit">Create</button>
+    </form>
+</div>
 
 </body>
 </html>
